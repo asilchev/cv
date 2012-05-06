@@ -1,0 +1,97 @@
+%% start of file `cv.tex'.
+%% Copyright 2009 Silchev Andrey
+%% modify date: 11.07.2011
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[blue]{casual}  
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{Andrey}
+\familyname{Silchev}
+\title{Java developer cv\dots}
+%\address{}  % for casual style
+\mobile{8(903)558-64-24} 
+\phone{8(499)184-07-75}
+\email{a.silchev@gmail.com}
+\extrainfo{JID: inot.unot@jabber.ru}
+% \photo[64pt]{cv_picture} % also optional, and the optional argument is the height the picture must be resized to
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+%\def\ConTeXt{%
+%  C%
+%  \kern-.0333emo%
+%  \kern-.0333emn%
+%  \kern-.0667em\TeX%
+%  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textsf{\scriptsize#1}}}% for text subscripts
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\makequote
+
+\section{Education}
+
+\cventry{2005--2008}{Software developer}{Lomonosov Moscow State University. Faculty of Computational Mathematics and Cybernetics}{}{}{}
+\cventry{1999--2004}{Mathematician}{Yakutsk State University}{}{}{}
+
+\section{Additional education}
+\cvitem{2008}{EMC Documentum System Architect, Documentum services}
+\cvitem{2008}{EMC Documentum Manager, Documentum services}
+\cvitem{2006}{Documentum 5 system engeneer, Documentum services}
+\cvitem{2005}{Java programming fundamentals, LANIT Academy}
+
+\section{Professional Experience}
+%\cventry{Февраль 2010--н.в.}{Разработчик}{ЗАО ТерраЛинк}{}{}{Проекты: Автоматизация обработки платежей в ЗАО ЮниКредит Банк. Development of scanning and recognition of payments in Captiva platform. Development of internal services in Documentum Method Server. Development of user interface in Documentum WDK (web development kit)}
+\cventry{Feb 2010--current}{Software developer}{TerraLink, Moscow}{}{}{Projects: Automate payments processing in Unicredit Bank, Development of scanning and recognition of payments in Captiva platform. Development of internal services in Documentum Method Server. Development of user interface in Documentum WDK (web development kit)}
+
+\cventry{Nov 2005--Feb 2010}{Systems Analyst}{BDO Unicon consulting, Moscow}{}{}{Projects: Development of electronic document management systems (EMC Documentum) for industry (2), government (1), consulting (1). Integration with ERP-system SAP-R3. Implementation of business process (EMC Documentum Application Builder, Documentum Process Builder, Java method server)}
+
+\cventry{2004--2005}{Systems Analyst}{BDO Unicon consulting, Moscow}{}{}{Developent and support internal ERP-system on MS-Axapta}
+
+\cventry{2002--2004}{Software developer}{Geology Scientific Research Institute, Mirny}{}{}{Geological software development, designed to search for minerals. Implementation of computational methods.}
+
+\section{Languages}
+\cvlanguage{Russian}{native}{}
+\cvlanguage{English}{technical}{}
+\closesection{}
+\pagebreak{}
+
+\section{Computer skills}
+\cvcomputer{Operation systems}{Linux, Windows}{}{}
+\cvcomputer{Data base}{PostgreSQL, Oracle}{Data base frameworks}{Hibernate, iBatis, jdbc}
+\cvcomputer{Programming languages}{Java, C/C++, JavaScript, VBA}{GUI frameworks}{AWT/Swing, Qt}
+\cvcomputer{Application servers}{Apache Tomcat, JBoss, Sun GlassFish}{}{}
+\cvcomputer{Web frameworks}{Spring 3.0, jQuery}{}{}
+\cvcomputer{Build tools}{Apache Ant, Maven}{Revision control}{Subversion, Mercurial}
+\cvcomputer{Other}{HTML, CSS, JSP, JSF, XML, UML, \LaTeX}{}{}
+
+
+\emptysection{}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{}
+
+\end{document}
+
+
+%% end of file `cv.tex'.

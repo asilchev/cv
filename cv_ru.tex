@@ -1,0 +1,94 @@
+%% start of file `cv.tex'.
+%% Copyright 2009 Silchev Andrey
+%% modify date: 11.01.2012
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvtheme[blue]{casual}  
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[T2A]{fontenc} 
+% \usepackage{hyperref}
+\renewcommand{\rmdefault}{cmr} %шрифт с засечками
+%\renewcommand{\sfdefault}{cmss}  %шрифт без засечек
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{Андрей}
+\familyname{Сильчев}
+\title{Documentum developer cv}
+\mobile{+7(903)558-64-24} 
+\phone{+7(499)184-07-75}
+\email{a.silchev@gmail.com}
+\extrainfo{JID: inot.unot@jabber.ru}
+% \photo[64pt]{cv_picture} % also optional, and the optional argument is the height the picture must be resized to
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Образование}
+
+\cventry{2005--2008}{Разработчик программного обеспечения}{Московский государственный университет им. М.В. Ломоносова, ВМиК}{}{}{}
+\cventry{1999--2004}{Математик}{Якутский государственный университет}{}{}{}
+\closesection{}
+
+\section{Повышение квалификации}
+\cvitem{2008}{EMC Documentum System Architect, Documentum services, сертификат}
+\cvitem{2008}{EMC Documentum Manager, Documentum services, сертификат}
+\cvitem{2006}{Documentum 5 system engeneer, Documentum services, сертификат}
+\cvitem{2005}{Java programming fundamentals, Академия ЛАНИТ, сертификат}
+\closesection{}
+
+\section{Профессиональный опыт}
+\cventry{Февраль 2010--н.в.}{Разработчик Captiva, Documentum}{ЗАО ТерраЛинк}{}{}{Проекты: Автоматизация обработки платежей в ЗАО ЮниКредит Банк. Разработка процесса сканирования и распознавания платежных документов в Captiva. Разработка внутренних сервисов в Documentum Method Server. Разработка пользовательского интерфейса в Documentum (Forms Builder)}
+\cventry{Ноябрь 2005--Февраль 2010}{Разработчик Documentum}{BDO Unicon consulting}{}{}{Проекты: Разработка и внедрение систем электронного документооборота на платформе EMC Documentum:
+\newline1. ОАО Юнимилк, Автоматизция обработки входящей корреспонденции. Разработка карточек документов (WDK, Documentum 5.3) 
+\newline 2. ОАО Сургутнефтегаз, Автоматизация обработки доверенностей. Разработка карточек документов (WDK, Documentum 5.3). 
+ \newline 3. Министерство инвестиционной политики нижегородской области, автоматизация обработки заявок на использование земель. Разработка карточек документов (WDK, Documentum 5.3) поиск документов, разработка отчетов. Процесс обработки и согласования заявок (Workflow Manager). 
+ \newline 4. Внутренний проект BDO Unicon consulting. Договоры, доверенности, командировки, входящая/исходящая корреспонденция, поручения, служебные записки. Разработка карточек документов, создание объектной можеди. Интеграция с ERP-системой SAP с использованием web-сервисов. (Documentum 5.3,DFC,WDK) Реализация бизнес-процессов (Workflow Manager, Documentum Method Server)}
+
+\cventry{2004--2005}{Системный аналитик}{BDO Unicon consulting}{}{}{Разработка, поддержка и сопровождение ERP-системы MS-Axapta}
+
+\cventry{2002--2004}{Программист}{ЯНИГП ЦНИГРИ подразделение АК «Алроса»}{}{}{Разработка программного обеспечения, ориентированного на прогнозирование местоположения полезных ископаемых, реализация различных численных методов.}
+\closesection{}
+
+\pagebreak{}
+
+% =====================================
+% Проекты
+% =====================================
+\section{Проекты}
+\cvitem{2010}{Миэль-новостройки. Система управления проектами (j2se, ejb3, jboss)}
+\cvitem{2009}{Прозрачный прокси для работы протокола socks5 поверх http (j2se, tomcat)}
+\cvitem{2008}{Система поиска и выбора товаров для строительства и ремонта \newline \url{http://bildika.ru} }
+\closesection{}
+
+\section{Языки}
+\cvlanguage{Русский}{Родной}{}
+\cvlanguage{Английский}{Технический}{Чтение и перевод технической литературы}
+\closesection{}
+
+\section{Ключевые навыки}
+\cvcomputer{OS}{Linux, Windows}{}{}
+\cvcomputer{СУБД}{PostgreSQL, Oracle}{Связь с СУБД}{Hibernate, iBatis, jdbc}
+\cvcomputer{Языки программирования}{Java, C/C++, JavaScript, VBA}{GUI}{AWT/Swing}
+\cvcomputer{Серверы приложений}{Apache Tomcat, JBoss, Sun GlassFish}{}{}
+\cvcomputer{Web framework}{Spring 3.0, jQuery}{Построение отчетов}{Jasper Reports}
+\cvcomputer{Системы сборки}{Apache Ant, Maven}{Системы управление версиями}{Subversion}
+\cvcomputer{Другое}{HTML, CSS, Servlet, JSP, JSF, XML, UML, \LaTeX}{}{}
+\closesection{}
+
+\emptysection{}
+\closesection{}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{sdsd}
+
+\end{document}
+
+
+%% end of file `cv.tex'.
