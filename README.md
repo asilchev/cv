@@ -2,8 +2,8 @@
 
 # Senior Java Developer #
 
-* Mob: +79035586424
-* Email: a.silchev@gmail.com
+* :phone:  :heavy_plus_sign::seven::nine::zero::three::five::five::eight::six::four::two::four:
+* :e-mail:  a.silchev@gmail.com
 * [GitHub account](https://github.com/asilchev)
 
 # Experience #
@@ -31,6 +31,12 @@ System analyst, EMC Documentum developer, Microsoft Axapta developer
 2002-2004
 
 Software developer
+
+# Technical Skills #
+
+* Languages: Java, C/C++
+* Common: OOP, TTD, SOA
+
 
 # Qualification #
 
