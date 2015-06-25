@@ -66,12 +66,6 @@ Mathematician
 Moscow State University, 2005-2008,
 Software engineer
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+# Professional interests #
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
-- [x] list syntax is required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+Objective-C, Mac OS/iOS development, Cryptography
