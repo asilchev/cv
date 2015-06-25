@@ -17,11 +17,11 @@
 =============
 
 Yakutsk State University, 1999-2004
--
+
 Mathematician
 
 Moscow State University, 2005-2008
--
+
 Software engineer
 
 | First Header  | Second Header |
