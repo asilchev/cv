@@ -2,6 +2,10 @@
 
 # Senior Java Developer #
 
+Backend software developer, hi load systems
+
+# Contacts #
+
 * :telephone_receiver:  :heavy_plus_sign::seven::nine::zero::three::five::five::eight::six::four::two::four:
 * :e-mail:  a.silchev@gmail.com
 * [GitHub account](https://github.com/asilchev)
