@@ -20,7 +20,6 @@
 * Java programming fundamentals
 
 # Education #
-=============
 
 Yakutsk State University, 1999-2004,
 Mathematician
