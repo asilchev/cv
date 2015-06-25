@@ -18,17 +18,34 @@ Backend software developer, hi load systems
 
 Software engineer, Java developer
 
+Projects:
+
+* Hi-load system for IPTV
+* MTS: virtual PBX
+* TV-portal for Moscow state services
+* Internal portal vs Cisco PAM integration
+
+Component develompment, load testing
+
 ## [TerrLink](http://terralink.ru) ##
 
 2010 - 2012
 
 EMC Documentum, Captiva developer
 
+Projects:
+
+* OCR payments recognition for UniCredit bank (Captiva OCR, FineReader)
+
 ## [BDO](http://bdo.ru) ##
 
 2004 - 2010
 
 System analyst, EMC Documentum developer, Microsoft Axapta developer
+
+Projects:
+
+
 
 # [Geologic Research Institute](http://www.alrosa.ru/corporate-structure/нигп/) #
 
