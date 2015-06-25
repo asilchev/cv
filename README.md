@@ -12,16 +12,20 @@
 
 * [GitHub account](https://https://github.com/asilchev)
 
+# Qualification #
+
+* EMC Documentum System Architect, Documentum services
+* EMC Documentum Manager, Documentum services
+* Documentum 5 system engeneer, Documentum services
+* Java programming fundamentals
 
 # Education #
 =============
 
-Yakutsk State University, 1999-2004
-
+Yakutsk State University, 1999-2004,
 Mathematician
 
-Moscow State University, 2005-2008
-
+Moscow State University, 2005-2008,
 Software engineer
 
 | First Header  | Second Header |
