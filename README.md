@@ -1,16 +1,11 @@
 # Andrey Silchev #
-==================
 
 # Senior Java Developer #
-=========================
 
 * Mob: +79035586424
 * Email: a.silchev@gmail.com
-* [GitHub account](https://https://github.com/asilchev)
+* [GitHub account](https://github.com/asilchev)
 
-## CV in TeX format ##
-
-* [GitHub account](https://https://github.com/asilchev)
 
 # Qualification #
 
