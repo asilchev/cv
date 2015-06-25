@@ -39,7 +39,7 @@ Software developer
 # Technical Skills #
 
 * **Languages**: Java, C/C++
-* **Common**: OOP, TTD, SOA
+* **Common**: OOP, TDD, SOA
 * **Frameworks**: Spring framework, Hibernate, MyBatis
 * **Servers**: JBoss, Jetty, Apache Tomcat, Nginx
 * **Storage, MQ**: Memcached, Redis, Rabbit MQ
@@ -60,11 +60,8 @@ Software developer
 
 # Education #
 
-Yakutsk State University, 1999-2004,
-Mathematician
-
-Moscow State University, 2005-2008,
-Software engineer
+* Moscow State University, 2005-2008, Software engineer
+* Yakutsk State University, 1999-2004, Mathematician
 
 # Professional interests #
 
