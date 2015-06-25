@@ -34,9 +34,18 @@ Software developer
 
 # Technical Skills #
 
-* Languages: Java, C/C++
-* Common: OOP, TTD, SOA
-
+* **Languages**: Java, C/C++
+* **Common**: OOP, TTD, SOA
+* **Frameworks**: Spring framework, Hibernate, MyBatis
+* **Servers**: JBoss, Jetty, Apache Tomcat, Nginx
+* **Storage, MQ**: Memcached, Redis, Rabbit MQ
+* **Java background**: JSP, JSF, JSTL, Apache Tiles, Quartz, Freemarker, JavaMail, CXF
+* **Report systems**: Jasper Reports, iReport
+* **Database**: PostgreSQL, MySQL
+* **Web**: HTTP, REST, SOAP
+* **VCS**: Git
+* **Build systems**: Maven, Gradle
+* **Other**: UML, Digital Signature (RuToken), LaTeX
 
 # Qualification #
 
