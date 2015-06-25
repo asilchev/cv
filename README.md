@@ -6,6 +6,31 @@
 * Email: a.silchev@gmail.com
 * [GitHub account](https://github.com/asilchev)
 
+# Experience #
+
+## [CTI](http://cti.ru) ##
+
+2012 - Present
+
+Software engineer, Java developer
+
+## [TerrLink](http://terralink.ru) ##
+
+2010 - 2012
+
+EMC Documentum, Captiva developer
+
+## [BDO](http://bdo.ru) ##
+
+2004 - 2010
+
+System analyst, EMC Documentum developer, Microsoft Axapta developer
+
+# [Geologic Research Institute](http://www.alrosa.ru/corporate-structure/нигп/) #
+
+2002-2004
+
+Software developer
 
 # Qualification #
 
