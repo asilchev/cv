@@ -4,7 +4,7 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 
-\moderncvtheme[blue]{casual}  
+\moderncvtheme[green]{casual}  
 % character encoding
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
@@ -47,8 +47,21 @@
 
 \section{Профессиональный опыт}
 
+%Sberbank
+\cventry{2016--н.в.}{Главный инженер-программист Java}{АО СберТех}{}{}{Проекты:\newline{}%
+\begin{itemize}%
+\item Разработка компонентов единой фронтальной системы (ЕФС);
+\begin{itemize}
+\item Создание новых и доработка существующих платформенных компонентов и сервисов - авторизация и аутентификация для удаленных каналов обслуживания (web, mobile app, терминалы, банкоматы)
+\end{itemize}
+\begin{itemize}
+\item Тестирование, отладка, создание дистрибутива (pipeline);
+\end{itemize}
+\end{itemize}
+}
+
 %CTI
-\cventry{2012--н.в.}{Старший инженер-программист Java}{ООО CTI}{}{}{Проекты:\newline{}%
+\cventry{2012--2016}{Старший инженер-программист Java}{ООО CTI}{}{}{Проекты:\newline{}%
 \begin{itemize}%
 \item Разработка высоконагруженной системы IPTV:
 \begin{itemize}
@@ -104,10 +117,11 @@
 
 % Проекты
 \section{Проекты}
+\cvitem{2018}{Ingrad. Система анализа и преобразования данных (SWT)}
 \cvitem{2015}{Metrium Group. Система обработки информации о сделках (госреестр) (Spring 4, Hibernate, PostgreSQL, Tomcat) (\url{http://testapp-silchevns.rhcloud.com})}
 \cvitem{2012}{Миэль-новостройки. Сбор данных об объектах застройки (Spring, Tomcat, PostgreSQL)}
 \cvitem{2010}{Миэль-новостройки. Система управления проектами (j2se, ejb3, jboss)}
-\cvitem{2009}{Прозрачный прокси для работы протокола socks5 поверх http (j2se, swing, tomcat) (\url{https://github.com/asilchev/jport})}
+\cvitem{2009}{Прозрачный прокси для работы протокола socks5 поверх http (j2se, swing, tomcat) (\url{https://gitlab.com/silchev/jport/})}
 \cvitem{2008}{Система поиска и выбора товаров для строительства и ремонта (\url{http://bildika.ru}) }
 \closesection{}
 
@@ -119,14 +133,15 @@
 \section{Технологии}
 \cventry{Языки программирования}{Java, C/C++}{}{}{}{}
 \cventry{OS}{Linux (Fedora, RHEL), Mac OS X}{}{}{}{}
-\cventry{Серверы приложений}{JBoss, Jetty, Apache Tomcat}{}{Frontend - nginx}{}{}
+\cventry{Серверы приложений}{JBoss, Jetty, Apache Tomcat, WebSphere}{}{Frontend - nginx}{}{}
 \cventry{СУБД}{PostgreSQL, MySql, HSQLDB}{}{}{}{}
 \cventry{Хранилища и MQ}{Memcached, Redis, Rabbit MQ}{}{}{}{}
-\cventry{Java background}{Spring framework (MVC, Data, WS, Security, Test), Spring Boot, JSP, JSF, JSTL, Apache Tiles, Quartz, Freemarker, JavaMail, CXF, AspectJ, Swing, SWT}{}{}{}{}
+\cventry{Java background}{Spring framework (MVC, Data, WS, Security, Test), Spring Boot, JSP, JSF, JSTL, Apache Tiles, Thymeleaf, Quartz, Freemarker, JavaMail, CXF, AspectJ, Swing, SWT}{}{}{}{}
 \cventry{ORM}{Hibernate, ibatis/mybatis, jdbc-templates}{}{}{}{}
 \cventry{Построение отчетов}{Jasper Reports, iReport}{}{}{}{}
 \cventry{Системы сборки}{Maven, Apache Ant}{}{}{}{}
 \cventry{Системы управление версиями}{Git}{}{}{}{}
+\cventry{Авто-тестирование и развертывание}{Jenkins (pipeline), SOAP-UI}{}{}{}{}
 \cventry{Другое}{TDD, SOA, HTML, CSS, XML, UML, SOAP, Digital Signature (RuToken) \LaTeX}{}{}{}{}
 \cventry{Область профессиональных интересов}{Objective-C, Mac OS/iOS development}{}{}{}{}
 \closesection{}
