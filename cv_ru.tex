@@ -1,29 +1,34 @@
-%% start of file 'cv.tex'.
-%% Copyright 2009 Silchev Andrey
-%% modify date: 08.04.2013
+%% start of file 'cv_ru.tex'.
+%% Copyright 2009-2018 Silchev Andrey (a.silchev@gmail.com)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 
-\moderncvtheme[green]{casual}  
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+
 % character encoding
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
+\usepackage[scale=0.75]{geometry}
 \usepackage[T2A]{fontenc} 
 % \usepackage{hyperref}
 \renewcommand{\rmdefault}{cmr} %шрифт с засечками
 %\renewcommand{\sfdefault}{cmss}  %шрифт без засечек
 
 % personal data (the given example is exhaustive; just give what you want)
-\firstname{Андрей}
-\familyname{Сильчев}
+\name{Андрей}{Сильчев}
 \title{Lead java developer cv}
-\mobile{+7(903)558-64-24} 
-% \phone{+7(499)184-07-75}
+\phone[mobile]{+7(903)558-64-24} 
+\address{г. Москва}
 \email{a.silchev@gmail.com}
 \social[twitter]{asilchev}
 \social[github]{asilchev}
 \extrainfo{skype: a\_silchev}
 % \photo[64pt]{cv_picture} % also optional, and the optional argument is the height the picture must be resized to
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
 
 
 %----------------------------------------------------------------------------------
@@ -36,27 +41,25 @@
 
 \cventry{2005--2008}{Разработчик программного обеспечения}{Московский государственный университет им. М.В. Ломоносова, ВМиК}{}{}{}
 \cventry{1999--2004}{Математик}{Якутский государственный университет}{}{}{}
-\closesection{}
 
 \section{Повышение квалификации}
 \cvitem{2008}{EMC Documentum System Architect, Documentum services, сертификат}
 \cvitem{2008}{EMC Documentum Manager, Documentum services, сертификат}
 \cvitem{2006}{Documentum 5 system engeneer, Documentum services, сертификат}
 \cvitem{2005}{Java programming fundamentals, Академия ЛАНИТ, сертификат}
-\closesection{}
 
 \section{Профессиональный опыт}
 
 %Sberbank
 \cventry{2016--н.в.}{Главный инженер-программист Java}{АО СберТех}{}{}{Проекты:\newline{}%
 \begin{itemize}%
-\item Разработка компонентов единой фронтальной системы (ЕФС);
-\begin{itemize}
-\item Создание новых и доработка существующих платформенных компонентов и сервисов - авторизация и аутентификация для удаленных каналов обслуживания (web, mobile app, терминалы, банкоматы)
-\end{itemize}
-\begin{itemize}
-\item Тестирование, отладка, создание дистрибутива (pipeline);
-\end{itemize}
+	\item Разработка компонентов единой фронтальной системы (ЕФС);
+    \begin{itemize}
+        \item Создание новых и доработка существующих платформенных компонентов и сервисов - авторизация и аутентификация для удаленных каналов обслуживания (web, mobile app, терминалы, банкоматы)
+	\end{itemize}
+	\begin{itemize}
+		\item Тестирование, отладка, создание дистрибутива (pipeline);
+	\end{itemize}
 \end{itemize}
 }
 
@@ -110,10 +113,8 @@
 \item Разработка программного обеспечения, ориентированного на прогнозирование местоположения полезных ископаемых;
 \item Реализация численных методов для прогнозирования;
  \end{itemize}}
-\closesection{}
 
 \pagebreak{}
-
 
 % Проекты
 \section{Проекты}
@@ -123,36 +124,58 @@
 \cvitem{2010}{Миэль-новостройки. Система управления проектами (j2se, ejb3, jboss)}
 \cvitem{2009}{Прозрачный прокси для работы протокола socks5 поверх http (j2se, swing, tomcat) (\url{https://gitlab.com/silchev/jport/})}
 \cvitem{2008}{Система поиска и выбора товаров для строительства и ремонта (\url{http://bildika.ru}) }
-\closesection{}
 
 \section{Языки}
-\cvlanguage{Русский}{Родной}{}
-\cvlanguage{Английский}{Технический}{Чтение и перевод технической литературы}
-\closesection{}
+\cvitemwithcomment{Русский}{Родной}{}
+\cvitemwithcomment{Английский}{Технический}{Чтение и перевод технической литературы}
+
+\section{Языки программирования}
+\cventry{}{Java, C/C++}{}{}{}{}
 
 \section{Технологии}
-\cventry{Языки программирования}{Java, C/C++}{}{}{}{}
-\cventry{OS}{Linux (Fedora, RHEL), Mac OS X}{}{}{}{}
-\cventry{Серверы приложений}{JBoss, Jetty, Apache Tomcat, WebSphere}{}{Frontend - nginx}{}{}
-\cventry{СУБД}{PostgreSQL, MySql, HSQLDB}{}{}{}{}
-\cventry{Хранилища и MQ}{Memcached, Redis, Rabbit MQ}{}{}{}{}
-\cventry{Java background}{Spring framework (MVC, Data, WS, Security, Test), Spring Boot, JSP, JSF, JSTL, Apache Tiles, Thymeleaf, Quartz, Freemarker, JavaMail, CXF, AspectJ, Swing, SWT}{}{}{}{}
-\cventry{ORM}{Hibernate, ibatis/mybatis, jdbc-templates}{}{}{}{}
-\cventry{Построение отчетов}{Jasper Reports, iReport}{}{}{}{}
-\cventry{Системы сборки}{Maven, Apache Ant}{}{}{}{}
-\cventry{Системы управление версиями}{Git}{}{}{}{}
-\cventry{Авто-тестирование и развертывание}{Jenkins (pipeline), SOAP-UI}{}{}{}{}
-\cventry{Другое}{TDD, SOA, HTML, CSS, XML, UML, SOAP, Digital Signature (RuToken) \LaTeX}{}{}{}{}
-\cventry{Область профессиональных интересов}{Objective-C, Mac OS/iOS development}{}{}{}{}
-\closesection{}
+\subsection{OS}
+\cvitem{}{Linux (Fedora, RHEL), Mac OS X}
 
-\emptysection{}
-\closesection{}
+\subsection{Серверы приложений}
+\cventry{}{JBoss, Jetty, Apache Tomcat, WebSphere}{}{Frontend - nginx}{}{}
+
+\subsection{СУБД}
+\cventry{}{PostgreSQL, MySql, HSQLDB}{}{}{}{}
+
+\subsection{Хранилища и MQ}
+\cventry{}{Memcached, Redis, Rabbit MQ, IBM MQ}{}{}{}{}
+
+\subsection{Java background}
+\cventry{}{Spring framework (MVC, Data, WS, Security, Test), Spring Boot, JSP, JSF, JSTL, Apache Tiles, Thymeleaf, Quartz, Freemarker, JavaMail, CXF, AspectJ, Swing, SWT}{}{}{}{}
+
+\subsection{ORM}
+\cventry{}{Hibernate, ibatis/mybatis, jdbc-templates}{}{}{}{}
+
+\subsection{Построение отчетов}
+\cventry{}{Jasper Reports, iReport}{}{}{}{}
+\subsection{Системы сборки}
+\cventry{}{Maven, Apache Ant}{}{}{}{}
+\subsection{Системы управление версиями}
+\cventry{}{Git}{}{}{}{}
+\subsection{Автоматизация тестирования и развертывания}
+\cventry{}{Jenkins (pipeline), SOAP-UI}{}{}{}{}
+\subsection{Другое}
+\cventry{}{TDD, SOA, HTML, CSS, XML, UML, SOAP, Digital Signature (RuToken) \LaTeX}{}{}{}{}
+\subsection{Область профессиональных интересов}
+\cventry{}{Objective-C, Mac OS/iOS development}{}{}{}{}
+
 %\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{sdsd}
+\bibliographystyle{plain}
+\bibliography{}
+%\section{}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
 
 \end{document}
 
-
-%% end of file `cv.tex'.
+%% end of file 'cv_ru.tex'
